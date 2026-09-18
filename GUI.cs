@@ -12,7 +12,7 @@ namespace LCR2
             while (true)
             {
                 Console.Write("Gib den Namen ein: ");
-                string name = Console.ReadLine();
+                string? name = Console.ReadLine();
 
                 if (string.IsNullOrWhiteSpace(name))
                     break;
@@ -31,7 +31,7 @@ namespace LCR2
             while (true)
             {
                 Console.Write("Möchten Sie noch einen Spieler eingeben? (1) Ja, (2) Nein: ");
-                string antwort = Console.ReadLine();
+                string? antwort = Console.ReadLine();
 
                 if (antwort == "1")
                     return true;

@@ -10,7 +10,8 @@ namespace LCR2
 {
     internal class Spiel
     {
-        private Spieler _aktuellerSpieler;
+        // Wird in SetzeStartSpieler() gesetzt, bevor das Spiel startet.
+        private Spieler _aktuellerSpieler = null!;
         private readonly List<Spieler> _spielerListe;
         private readonly GUI _gui = new GUI();
         private readonly Becher _becher = new Becher();
