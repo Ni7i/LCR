@@ -1,0 +1,10 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.user
+.DS_Store
